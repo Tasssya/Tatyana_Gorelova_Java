@@ -1,0 +1,28 @@
+Task:
+
+Given bracket sequence: [((())()(())]]
+Can this sequence be considered correct?
+If the answer to the previous question is “no”, then what needs to be changed in it to make it correct?
+
+-----------------
+
+Answer:
+
+The bracket sequence [((())()(())]] is incorrect.
+The number of opening brackets must be equal to the number of closing brackets.
+
+Number of opening square brackets: 1
+Number of closing square brackets: 2
+
+Number of opening round brackets: 6
+Number of closing round brackets: 5
+
+Some options for how the sequence can be fixed:
+1.Increase the number of opening square brackets and number of closing round brackets:
+
+[[((()))()(())]]
+
+2.Reduce the number of closing square brackets and opening round brackets
+
+[(())()(())]
+
