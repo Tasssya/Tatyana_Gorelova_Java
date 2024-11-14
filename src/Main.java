@@ -5,11 +5,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
         System.out.println("Enter any number");
-        {
+
             int a = console.nextInt();
             if (a > 7)
                 System.out.println("Hello");
-        }
+
         System.out.println("Enter Name");
         String name = console.next();
         {
